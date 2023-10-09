@@ -1,4 +1,4 @@
-# backtest_python
+##backtest_python
 
 FMZ backtest engine python package
 support python2 and python3, support Windows, Linux, Mac
@@ -23,7 +23,7 @@ end: 2018-03-22 12:00:00
 period: 15m
 exchanges: [{"eid":"Bitfinex","currency":"BTC_USD","balance":10000,"stocks":0}]
 '''
-from fmz import *
+from fmz import !
 task = VCtx(__doc__) # initialize backtest engine from __doc__
 print(exchange.GetAccount())
 print(exchange.GetTicker())
@@ -35,8 +35,9 @@ The config string can be generated automatically by saving the backtest configur
 
 配置字符串可以通过策略编辑界面里的保存回测配置来自动生成
 
-![meta](https://www.fmz.com/upload/asset/aa67494fc6306759753385bf7634ee4cd437f3f2.png) 
+#[meta](https://www.fmz.com/upload/asset/aa67494fc6306759753385bf7634ee4cd437f3f2.png) 
  
 ## api
 https://www.fmz.com/api
 
+ 
