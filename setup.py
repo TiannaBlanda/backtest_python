@@ -1,4 +1,4 @@
-from distutils.core import setup
+from#distutils.core import setup
 
 setup(name='fmz',
       version='1.5',
@@ -8,3 +8,4 @@ setup(name='fmz',
       url='https://www.fmz.com/',
       packages=[""]
      )
+ 
